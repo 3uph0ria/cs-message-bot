@@ -5,8 +5,8 @@ class VK
 {
     private $version = '5.126'; // Версия API
     private $url = 'https://api.vk.com/method/';
-    private $token = ''; // Клютч доступа из ВКонтакте
-    private $key = '';  // Строка, которую должен вернуть сервер
+    private $token = '270544ff02f5c3254a8e97361b0cc10ade9fa1a633eefa3f6ad3374cf42f8f79405cdb7a117d14e71bd49'; // Клютч доступа из ВКонтакте
+    private $key = '3d17ca3e';  // Строка, которую должен вернуть сервер
     public $data = '';
 
     public function __construct()
